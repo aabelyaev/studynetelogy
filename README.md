@@ -4,16 +4,16 @@
 Решение: https://hub.docker.com/repository/docker/aabelyaev/custom_nginx/general
 
 ## Задние 2
-Решенеие: \homework4\task2
+Решенеие: https://github.com/aabelyaev/studynetelogy/tree/main/homework4/task2
 
 ## Задние 3
-Решенеие: \homework4\task3
+Решенеие: https://github.com/aabelyaev/studynetelogy/tree/main/homework4/task3
 
 ## Задние 4
-Решенеие: \homework4\task4
+Решенеие: https://github.com/aabelyaev/studynetelogy/tree/main/homework4/task4
 
 ## Задние 5
-Решенеие: \homework4\task5
+Решенеие: https://github.com/aabelyaev/studynetelogy/tree/main/homework4/task5
 Какой из файлов был запущен и почему?
 Docker Compose полагается на файл конфигурации YAML, обычно называемый compose.yaml.
 Файл compose.yaml следует правилам, предусмотренным спецификацией Compose в разделе "Как определить многоконтейнерные приложения". Это реализация формальной спецификации Compose в Docker Compose
