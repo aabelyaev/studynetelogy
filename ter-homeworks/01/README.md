@@ -18,6 +18,23 @@ personal.auto.tfvars.
 <image src="4.png">
 7. 
 <image src="5.png">
-8. После удаления всех ресурсов, docker-образ nginx:latest не удалится автоматически. Это происходит потому, что удаление docker-образов не является частью функционала Terraform. Такое поведение документируется в официальной документации Terraform провайдера docker, где указано, что ресурсы docker_image не будут удалены при выполнении terraform destroy.
+8. 
+/*После удаления всех ресурсов, docker-образ nginx:latest не удалится автоматически. Это происходит потому, что удаление docker-образов не является частью функционала Terraform. Такое поведение документируется в официальной документации Terraform провайдера docker, где указано, что ресурсы docker_image не будут удалены при выполнении terraform destroy.*/
+
+Причина, по которой образ nginx:latest не был удален, заключается в том, что в файле terraform.tfstate для ресурса docker_image.nginx не установлен атрибут keep в значение false.
+
+Согласно документации Terraform для провайдера Docker:
+
+    keep - (Optional) If set to true, the image will not be deleted when the resource is destroyed. Defaults to false.
+
+Поскольку атрибут keep не установлен в false, образ nginx:latest не будет удален при уничтожении ресурса.
+
+Чтобы удалить образ, необходимо установить атрибут keep в значение false в конфигурации Terraform:
+
+resource "docker_image" "nginx" {
+  name  = "nginx"
+  keep  = false
+}
+
 
 
