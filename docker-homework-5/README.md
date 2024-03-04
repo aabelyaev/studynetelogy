@@ -1,7 +1,7 @@
 # Домашнее задание к занятию 5. «Практическое применение Docker»
 
 ## Задние 2
-aabelyaev@aabelyaev-Redmi-Book-Pro-15-2022:~/studynetelogy/studynetelogy/shvirtd-example-python$ yc container image scan crpg2ie0lajiv8os7tdc         
+aabelyaev@aabelyaev-Redmi-Book-Pro-15-2022:~/studynetelogy/studynetelogy/docker-homework-5$ yc container image scan crpg2ie0lajiv8os7tdc         
 done (2m2s)
 id: chehhhlkh695h******
 image_id: crpg2ie0laji******
@@ -16,7 +16,7 @@ vulnerabilities:
 ## Задние 3
 Подскажите что делаю не так?
 В консоле 
-aabelyaev@aabelyaev-Redmi-Book-Pro-15-2022:~/studynetelogy/studynetelogy/shvirtd-example-python$ docker compose up -d
+aabelyaev@aabelyaev-Redmi-Book-Pro-15-2022:~/studynetelogy/studynetelogy/docker-homework-5$ docker compose up -d
 [+] Running 4/0
  ✔ Container shvirtd-example-python-db-1             Running                                                                                   0.0s 
  ✔ Container shvirtd-example-python-reverse-proxy-1  Running                                                                                   0.0s 
