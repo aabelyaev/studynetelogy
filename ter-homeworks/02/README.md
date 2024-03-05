@@ -1,6 +1,4 @@
-# Домашнее задание к занятию 4 «Оркестрация группой Docker контейнеров на примере Docker Compose»
-<image src="1.png">
-
+# Домашнее задание к занятию «Основы Terraform. Yandex Cloud»
 
 ## Задние 1
 <image src="images/1.png">
