@@ -28,7 +28,7 @@ instance_info = {
 }
 
 ## Задние 7
-<image src="images/2.png">
+<image src="images/3.png">
 
 Закомментировал неиспользуемые переменные.
 Terraform plan изменения не показал
