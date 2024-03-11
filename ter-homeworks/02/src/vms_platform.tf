@@ -38,13 +38,6 @@ variable "vpc_name" {
 
 ###web
 
-/*variable "vm_web_name" {
-  type        = string
-  default     = "netology-develop-platform-web"
-  description = "name"
-}
-*/
-
 variable "vm_web_platform_id" {
   type        = string
   default     = "standard-v2"
@@ -62,29 +55,7 @@ variable "vm_web_image" {
   default = "ubuntu-2004-lts"
 }
 
-/*variable "vm_web_cores" {
-  type = number
-  default = 2
-}
-
-variable "vm_web_memory" {
-  type = number
-  default = 4
-}
-
-variable "vm_web_core_fraction" {
-  type = number
-  default = 5
-}
-*/
-
 ###db
-
-/*variable "vm_db_name" {
-  type        = string
-  default     = "netology-develop-platform-db"
-  description = "name"
-}*/
 
 variable "vm_db_platform_id" {
   type        = string
@@ -97,21 +68,6 @@ variable "vm_db_zone" {
   default     = "ru-central1-b"
   description = "zone"
 }
-
-/*variable "vm_db_cores" {
-  type = number
-  default = 2
-}
-
-variable "vm_db_memory" {
-  type = number
-  default = 2
-}
-
-variable "vm_db_core_fraction" {
-  type = number
-  default = 20
-}*/
 
 ###ssh vars
 
@@ -139,8 +95,6 @@ variable "vms_ssh_root_key" {
     }
  }
 
- ###metadata
-
  variable "metadata_map" {
     type = map(string)
     default = {
@@ -148,3 +102,49 @@ variable "vms_ssh_root_key" {
         ssh-keys = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPVSB7ZcD0DRUwKnLoorPfoNym/zzQwVXyZIALek+Z/+ aabelyaev@aabelyaev-Redmi-Book-Pro-15-2022"
     }
  }
+
+ ###code_comment
+
+ /*variable "vm_web_name" {
+  type        = string
+  default     = "netology-develop-platform-web"
+  description = "name"
+}
+*/
+
+ /*variable "vm_web_cores" {
+  type = number
+  default = 2
+}
+
+variable "vm_web_memory" {
+  type = number
+  default = 4
+}
+
+variable "vm_web_core_fraction" {
+  type = number
+  default = 5
+}
+*/
+
+/*variable "vm_db_name" {
+  type        = string
+  default     = "netology-develop-platform-db"
+  description = "name"
+}*/
+
+/*variable "vm_db_cores" {
+  type = number
+  default = 2
+}
+
+variable "vm_db_memory" {
+  type = number
+  default = 2
+}
+
+variable "vm_db_core_fraction" {
+  type = number
+  default = 20
+}*/
