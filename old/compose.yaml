@@ -7,7 +7,7 @@ services:
   web:
     build:
       context: .
-      dockerfile: Dockerfile.python
+      dockerfile: dockerfile
     networks:
       backend:
         ipv4_address: 172.20.0.5
