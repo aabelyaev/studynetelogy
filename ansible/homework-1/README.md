@@ -17,4 +17,12 @@
 <image src="img/9.png"> 
 10. <image src="img/10.png"> 
 11. <image src="img/11.png"> 
-12. ДЗ: https://github.com/duxaxa/08-ansible-01-base/tree/main
+12. https://github.com/aabelyaev/studynetelogy/tree/main/ansible/homework-1
+
+# Необязательная часть
+
+1. <image src="img/*1.png"> 
+2. <image src="img/*2.png"> 
+3. <image src="img/*3.png"> 
+4. <image src="img/*4.png"> 
+5. Не знаком с bash
