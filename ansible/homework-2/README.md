@@ -10,4 +10,4 @@
 PLAY RECAP *********************************************************************************************************************************************************
 clickhouse-01              : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=1    ignored=0   
 vector-01                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0  
-9.
+9. https://github.com/aabelyaev/studynetelogy/blob/main/ansible/homework-2/playbook/README.md
