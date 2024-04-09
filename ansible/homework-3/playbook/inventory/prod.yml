@@ -1,0 +1,22 @@
+---
+clickhouse:
+  hosts:
+    centos7-1:
+      ansible_connection: ssh
+      ansible_ssh_user: centos
+      ansible_host: 158.160.37.63
+      ansible_private_key_file: ~/.ssh/public.pub
+vector:
+  hosts:
+    centos7-2:
+      ansible_connection: ssh
+      ansible_ssh_user: centos
+      ansible_host: 158.160.41.164
+      ansible_private_key_file: ~/.ssh/public.pub
+lighthouse:
+  hosts:
+    centos7-3:
+      ansible_connection: ssh
+      ansible_ssh_user: centos
+      ansible_host: 62.84.124.245
+      ansible_private_key_file: ~/.ssh/public.pub
