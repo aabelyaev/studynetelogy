@@ -3,6 +3,7 @@
 <image src="img/1.png"> 
 ## Задние 1 
 1-3 Дописал play, который устанавливает LightHouse. Использую модули get_url, template, yum, service, file. Происходит установка и конфигурирование веб-сервера Nginx, установка и конфигурирование LightHouse, запуск служб Nginx и LightHouse.
+
 4. Подготовил inventory-файл prod.yml
 ---
 clickhouse:
@@ -26,6 +27,7 @@ lighthouse:
       ansible_ssh_user: centos
       ansible_host: 62.84.124.245
       ansible_private_key_file: ~/.ssh/public.pub
+
 5. Запустил ansible-lint site.yml. Были испарвлены ошибки в отсутствии прав на скачиваемые или создаваемые файлы.
 6. Запустил playbook с флагом --check. Выполнение playbook завершилось с ошибкой, т.к. этот флаг не вносит изменения в системы, а выполнение playbook требует скачивания и установки пакетов приложений.
 7. Запустил playbook на prod.yml окружении с флагом --diff. Изменения в систему внесены:
