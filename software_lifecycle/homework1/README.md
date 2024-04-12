@@ -5,4 +5,4 @@
 <image src="2.png">
 ## Выгруженные схемы Workflow:
 
-* [workflow](https://github.com/DemoniumBlack/fedorchukds-devops-33-22/blob/main/Workflows/Bug.xml)
+* [workflow](https://github.com/aabelyaev/studynetelogy/blob/main/software_lifecycle/homework1/SearchRequest.xml)
