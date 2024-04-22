@@ -1,0 +1,6 @@
+projectKey=CI-CD
+serverUrl=http://62.84.118.206:9000
+serverVersion=9.1.0.47736
+dashboardUrl=http://62.84.118.206:9000/dashboard?id=CI-CD
+ceTaskId=AY8FdVP_p83Xt3BZ_Wfh
+ceTaskUrl=http://62.84.118.206:9000/api/ce/task?id=AY8FdVP_p83Xt3BZ_Wfh
