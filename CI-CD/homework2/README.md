@@ -96,17 +96,11 @@
 
 ### Решение основной части
 
-1. В репозиторий `maven-public` загружаю артефакт с указанными параметрами:
+1. Загрузил артефакты с указанными параметрами:
 
-![img_10.png](IMG/img_10.png)
+![5.png](img/5.png)
 
-2. Загружаю такой же артефакт, но с версией 8_102.
-
-3. Через Browse, проверяю содержимое репозитория `maven-public`, вижу, что все файлы загрузились успешно:
-
-![img_11.png](IMG/img_11.png)
-
-4. [Ссылка на maven-metadata.xml](https://github.com/DemoniumBlack/fedorchukds-devops-33-23/blob/main/SRC/maven-metadata.xml)
+2. [Ссылка на maven-metadata.xml](https://github.com/DemoniumBlack/fedorchukds-devops-33-23/blob/main/SRC/maven-metadata.xml)
 
 
 
