@@ -100,7 +100,7 @@
 
 ![5.png](img/5.png)
 
-2. [Ссылка на maven-metadata.xml](https://github.com/DemoniumBlack/fedorchukds-devops-33-23/blob/main/SRC/maven-metadata.xml)
+2. [Ссылка на maven-metadata.xml](https://github.com/aabelyaev/studynetelogy/blob/main/CI-CD/homework2/infrastructure/mvn/maven-metadata.xml)
 
 
 
