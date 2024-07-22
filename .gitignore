@@ -1,1 +1,2 @@
-*.DS_Store
+# игнорирует все файлы .DS_Store
+.DS_Store
