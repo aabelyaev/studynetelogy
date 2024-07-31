@@ -15,7 +15,7 @@
 5. В итоге Dashboard так
 <image src="img/5.png">  
 
-Ссылка на файл: 
+Ссылка на файл: https://github.com/aabelyaev/studynetelogy/blob/main/Monitoring%26logs/02/model.json
 
 
 
