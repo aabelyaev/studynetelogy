@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «Jenkins»
+# Домашнее задание к занятию 14 «Средство визуализации Grafana»
 
 1. Развернул grafana, prometheus и node-exporter:
 <image src="img/1.png"> 
