@@ -30,9 +30,8 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
-/*
+
 variable "public_key" {
   type    = string
-  default = "ssh-ed25519 hPINAQ8qfT+Y9oVU+T8DUzMg2xLNYKMcb7vIGqQkjMY aabelyaev@aabelyaev-Redmi-Book-Pro-15-2022"
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC2ri0DFr5GWEtVqgtu+roLkKMh/k9RCy9teaAOi7aEXkIIF9iwSd6nxIO0lEGcbC/5oiHtGQjiBMydNxldYDWJmK6BEnUP5u86k0uUtLsZW4C3fgdmFJzlNqH0R2EqY1MoP3JZl/AjOCHCkwqPV+PCtTfhPhjYzHsq2w+ncTfakqQHtq+g5FnZd5zR95a+WeUamHDbXwYDmOQ7re6xi1EPy3c6Ii34YaxKFRuA4qEjCihLUEjD1qf/8wv7wHL9r0+73BB9h7fBp+oPiRQtSxSHyXJ5KLmeUPAanPNn08kZfax7mEJpa0mxv+VLrJmpU6TKN4n2MhjLVeyGbht5g5M2VOVGNr/ciFx9TNJBrwzDgp/BaOgLRZb1jZiEyiH6706a9Hef6V9JDDVoommpOwFA3pR9ZLJmif08No/WgUm55MpvmS/fs8LjjGgskTwLpYTz9mE4xZ4ZunOOycnZRXtg8XpsgijeLCkQUjI6Xh9MkH7cH+bDn5duIUEvIcq758M= alex@MacStudio-Belyaev.local"
 }
-*/
