@@ -4,10 +4,10 @@ locals {
 
 variable "os_image_jenkins" {
   type    = string
-  default = "centos-7"
+  default = "centos-stream-8"
 }
 
-data "yandex_compute_image" "centos7" {
+data "yandex_compute_image" "centos-stream-8" {
   family = var.os_image_jenkins
 }
 variable "yandex_compute_instance_jenkins" {
@@ -21,7 +21,7 @@ variable "yandex_compute_instance_jenkins" {
   }))
 
   default = [{
-      vm_name = "centos7"
+      vm_name = "centos-stream-8"
       cores         = 2
       memory        = 4
       core_fraction = 5
@@ -42,7 +42,7 @@ variable "boot_disk_jenkins" {
 }
 
 
-resource "yandex_compute_instance" "centos7" {
+resource "yandex_compute_instance" "centos-stream-8" {
   name        = count.index == 0 ? "jenkins-master" : "jenkins-agent"
   platform_id = var.yandex_compute_instance_jenkins[0].platform_id
 
@@ -56,7 +56,7 @@ resource "yandex_compute_instance" "centos7" {
 
   boot_disk {
     initialize_params {
-      image_id = data.yandex_compute_image.centos7.image_id
+      image_id = data.yandex_compute_image.centos-stream-8.image_id
       type     = var.boot_disk_jenkins[0].type
       size     = var.boot_disk_jenkins[0].size
     }
