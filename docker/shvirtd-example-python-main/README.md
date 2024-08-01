@@ -7,6 +7,7 @@
 # Задача 3
 <image src="img/2.png">
 <image src="img/3.png">
+
 # Задача 4
 
 <image src="img/4.png">
